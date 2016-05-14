@@ -7,7 +7,6 @@ exports.paramSchema = {
 };
 
 exports.generateQuestionText = function (qInputs){ 
-    return "stub"
     return "What is " + qInputs.firstNum + " plus " + qInputs.secondNum + "?";
 }
 
